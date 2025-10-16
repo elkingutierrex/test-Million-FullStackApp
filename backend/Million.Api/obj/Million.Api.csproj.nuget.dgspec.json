@@ -1,0 +1,264 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\personalProjects\\million-fullstack\\backend\\Million.Api\\Million.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\personalProjects\\million-fullstack\\backend\\Million.Api\\Million.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\personalProjects\\million-fullstack\\backend\\Million.Api\\Million.Api.csproj",
+        "projectName": "Million.Api",
+        "projectPath": "D:\\projects\\personalProjects\\million-fullstack\\backend\\Million.Api\\Million.Api.csproj",
+        "packagesPath": "C:\\Users\\elkinguierrex\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\personalProjects\\million-fullstack\\backend\\Million.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elkinguierrex\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Application\\Million.Application.csproj": {
+                "projectPath": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Application\\Million.Application.csproj"
+              },
+              "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Infrastructure\\Million.Infrastructure.csproj": {
+                "projectPath": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Infrastructure\\Million.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Application\\Million.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Application\\Million.Application.csproj",
+        "projectName": "Million.Application",
+        "projectPath": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Application\\Million.Application.csproj",
+        "packagesPath": "C:\\Users\\elkinguierrex\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elkinguierrex\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Domain\\Million.Domain.csproj": {
+                "projectPath": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Domain\\Million.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Domain\\Million.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Domain\\Million.Domain.csproj",
+        "projectName": "Million.Domain",
+        "projectPath": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Domain\\Million.Domain.csproj",
+        "packagesPath": "C:\\Users\\elkinguierrex\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elkinguierrex\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Infrastructure\\Million.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Infrastructure\\Million.Infrastructure.csproj",
+        "projectName": "Million.Infrastructure",
+        "projectPath": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Infrastructure\\Million.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\elkinguierrex\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elkinguierrex\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Application\\Million.Application.csproj": {
+                "projectPath": "D:\\projects\\personalProjects\\million-fullstack\\src\\Million.Application\\Million.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
